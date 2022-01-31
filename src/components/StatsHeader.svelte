@@ -1,6 +1,6 @@
 <script lang="ts">
   import axios from "axios";
-  import { formatNumber, formatFileSize } from "../utils/units";
+  import { formatFileSize, formatNumber } from "../utils/units";
 
   let stats = {
     posts: "0",
