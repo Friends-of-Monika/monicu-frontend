@@ -2,7 +2,7 @@
   import ImageGrid from "../components/ImageGrid.svelte";
   import StatsHeader from "../components/StatsHeader.svelte";
   import ReportModal from "../components/ReportModal.svelte";
-  import type { Post } from "../post";
+  import type { Post } from "../types/post";
   import JsFileDownloader from "js-file-downloader";
 
   let reportModalShown = false;
