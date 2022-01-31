@@ -1,6 +1,23 @@
 {
-  "name": "monicufrontend",
+  "name": "monicu-frontend",
+  "description": "Frontend for mon.icu REST API.",
   "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "email": "dreamscache.d@gmail.com",
+    "name": "dreamscached",
+    "url": "https://github.com/dreamscached"
+  },
+  "bugs": {
+    "url": "https://github.com/friends-of-monika/monicu-frontend/issues",
+    "email": "dreamscache.d@gmail.com"
+  },
+  "homepage": "https://github.com/friends-of-monika/monicu-frontend",
+  "repository": {
+    "url": "https://github.com/friends-of-monika/monicu-frontend",
+    "type": "git"
+  },
+  "type": "module",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -30,7 +47,6 @@
     "tslib": "^2.3.1",
     "typescript": "^4.4.3"
   },
-  "type": "module",
   "dependencies": {
     "axios": "^0.24.0",
     "js-file-downloader": "^1.1.24",
