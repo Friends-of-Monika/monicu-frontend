@@ -2,7 +2,7 @@
   import InfiniteLoading from "svelte-infinite-loading";
 
   import axios from "axios";
-  import type { Post } from "../post";
+  import type { Post } from "../types/post";
   import Image from "./Image.svelte";
 
   let posts = new Array<Post>();
