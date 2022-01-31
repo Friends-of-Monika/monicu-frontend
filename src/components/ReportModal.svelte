@@ -21,10 +21,8 @@
     dispatch("close");
   }
 
-  $: {
-    if (shown) {
-      tick().then(() => textarea.focus());
-    }
+  $: { // this is necessary for focus to properly apply
+    if (shown) tick().then(() => textarea.focus());
   }
 </script>
 
