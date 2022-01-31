@@ -23,9 +23,8 @@
   <div class="place-self-center mt-auto md:w-[50vw] xl:w-[40vw]">
     <div class="text-center">
       <h1 class="text-5xl">mon💚icu</h1>
-      <!--      <p class="text-2xl">moni<span class="text-slate-300">ka is </span> cu<span-->
-      <!--        class="text-slate-300">te~</span></p>-->
-      <p class="text-2xl">open alpha</p>
+            <p class="text-2xl">moni<span class="text-slate-300">ka is </span> cu<span
+              class="text-slate-300">te~</span></p>
     </div>
     <div class="text-center m-auto">
       <h1 class="text-xl">
